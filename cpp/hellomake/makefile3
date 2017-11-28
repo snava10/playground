@@ -1,0 +1,17 @@
+
+CC=g++
+objects = main.o hello.o factorial.o
+cflags = -c -Wall
+
+all: hello
+
+hello: $(objects)
+	$(CC) $(objects) -o hello
+main.o: main.cpp
+factorial.o: factorial.cpp
+hello.o: hello.cpp
+
+.PHONY: clean
+
+clean:
+	rm *.o hello
