@@ -1,0 +1,21 @@
+C=g++
+cflags = -c -Wall
+objdir = obj
+bindir = bin
+objects = $(addprefix $(objdir)/,main.o hello.o factorial.o)
+
+$(objdir)/%.o : %.cpp
+	$(CC) $< $(cflags) $@
+
+all: $(objects)
+	$(CC) $(objects) -o $(addprefix $(bindir)/,hello)
+
+
+$(objects): | $(objdir) $(bindir)
+
+$(objdir):
+	mkdir $(objdir)
+
+$(bindir):
+	mkdir $(bindir)
+
