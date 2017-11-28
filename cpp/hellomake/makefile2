@@ -5,10 +5,13 @@ CC=g++
 # options I'll pass to the compiler.
 CFLAGS=-c -Wall
 
+#Objects
+objects= main.o factorial.o hello.o
+
 all: hello 
 
-hello: main.o factorial.o hello.o
-	$(CC) main.o factorial.o hello.o -o hello
+hello: $(objects) 
+	$(CC) $(objects) -o hello
 
 main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
