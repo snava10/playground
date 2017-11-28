@@ -22,5 +22,10 @@ hello: $(OBJS)
 #	$(CC) $< $(CFLAGS) -o $(addprefix $(ODIR)/, $@)
 %.o : %.cpp
 	$(CC) $< $(CFLAGS) -o $(addprefix $(ODIR)/, $@)
+
+.PHONY: clean
+
+clean:
+	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~
 	
 
