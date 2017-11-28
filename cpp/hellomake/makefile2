@@ -5,7 +5,7 @@ CC=g++
 # options I'll pass to the compiler.
 CFLAGS=-c -Wall
 
-all: hello clean
+all: hello 
 
 hello: main.o factorial.o hello.o
 	$(CC) main.o factorial.o hello.o -o hello
