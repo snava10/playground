@@ -1,0 +1,4 @@
+/home/god_admin/github/playgroud/cpp/hellocmake/build/CMakeFiles/test.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/build/CMakeFiles/edit_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/build/CMakeFiles/rebuild_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/build/CMakeFiles/toDo.dir

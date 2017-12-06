@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/toDo.dir/main.cpp.o CMakeFiles/toDo.dir/todo.cpp.o  -o toDo -rdynamic 

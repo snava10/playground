@@ -1,19 +1,19 @@
-Start testing: Dec 04 15:39 GMT
+Start testing: Dec 06 17:19 UTC
 ----------------------------------------------------------
 1/1 Testing: toDoTest
 1/1 Test: toDoTest
-Command: "/home/sergio/github/playgroud/cpp/hellocmake/build/toDo"
-Directory: /home/sergio/github/playgroud/cpp/hellocmake/build
-"toDoTest" start time: Dec 04 15:39 GMT
+Command: "/home/god_admin/github/playgroud/cpp/hellocmake/build/toDo"
+Directory: /home/god_admin/github/playgroud/cpp/hellocmake/build
+"toDoTest" start time: Dec 06 17:19 UTC
 Output:
 ----------------------------------------------------------
 Test passed
 <end of output>
-Test time =   0.00 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"toDoTest" end time: Dec 04 15:39 GMT
+"toDoTest" end time: Dec 06 17:19 UTC
 "toDoTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 04 15:39 GMT
+End testing: Dec 06 17:19 UTC

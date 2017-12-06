@@ -1,4 +1,4 @@
-# Install script for directory: /home/sergio/github/playgroud/cpp/hellocmake
+# Install script for directory: /home/god_admin/github/playgroud/cpp/hellocmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sergio/github/playgroud/cpp/hellocmake/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/god_admin/github/playgroud/cpp/hellocmake/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
