@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/ToDoCore/ToDo.h
+string
+-
+vector
+-
+
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/main.cc
+iostream
+-
+ToDoCore/ToDo.h
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/ToDoCore/ToDo.h
+

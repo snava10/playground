@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../ToDoCore/CMakeLists.txt"
+  "../ToDoCore/unit_test/CMakeLists.txt"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
@@ -37,9 +39,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ToDoCore/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ToDoCore/unit_test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/toDo.dir/DependInfo.cmake"
+  "ToDoCore/CMakeFiles/toDoCore.dir/DependInfo.cmake"
+  "ToDoCore/unit_test/CMakeFiles/ToDoTest.dir/DependInfo.cmake"
   )
