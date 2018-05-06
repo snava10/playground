@@ -34,3 +34,8 @@
 #Vim
 *.swp
 *.swo
+
+#Binaries
+/cpp/hellocmake/build
+/cpp/googletest/runTests
+

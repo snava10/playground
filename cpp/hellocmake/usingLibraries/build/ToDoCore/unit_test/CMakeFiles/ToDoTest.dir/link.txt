@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -Werror   CMakeFiles/ToDoTest.dir/ToDoTest.cc.o  -o ToDoTest -rdynamic -lgmock_main -pthread ../libtoDoCore.a 

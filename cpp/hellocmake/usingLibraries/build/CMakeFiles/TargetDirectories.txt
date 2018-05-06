@@ -1,0 +1,12 @@
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/CMakeFiles/test.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/CMakeFiles/edit_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/CMakeFiles/rebuild_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/CMakeFiles/toDo.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/CMakeFiles/test.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/CMakeFiles/edit_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/CMakeFiles/rebuild_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/CMakeFiles/toDoCore.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/unit_test/CMakeFiles/test.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/unit_test/CMakeFiles/edit_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/unit_test/CMakeFiles/rebuild_cache.dir
+/home/god_admin/github/playgroud/cpp/hellocmake/usingLibraries/build/ToDoCore/unit_test/CMakeFiles/ToDoTest.dir
