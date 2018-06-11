@@ -39,3 +39,9 @@
 /cpp/hellocmake/build
 /cpp/googletest/runTests
 
+# exclude
+/docker/labs
+*/.idea
+/docker/shopping-cart/products/target
+/docker/shopping-cart/users/target
+

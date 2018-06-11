@@ -1,0 +1,3 @@
+# First, get ECR login for docker
+aws ecr get-login --no-include-email --region us-east-1
+
