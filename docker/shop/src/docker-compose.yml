@@ -1,0 +1,38 @@
+version: "3"
+services:
+  rest-products:
+    # replace username/repo:tag with your name and image details
+    # image: sergionava89/products:v1
+    image: shop-products
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "50501:50501"
+      - "4001:8081"
+    networks:
+      - webnet
+#  rest-users:
+#    # image: sergionava89/users:v1
+#    image: shop-users
+#    deploy:
+#      replicas: 1
+#      resources:
+#        limits:
+#          cpus: "0.1"
+#          memory: 50M
+#      restart_policy:
+#        condition: on-failure
+#    ports:
+#      - "50500:50500"
+#      - "4000:8080"
+#    networks:
+#      - webnet
+networks:
+  webnet:
+

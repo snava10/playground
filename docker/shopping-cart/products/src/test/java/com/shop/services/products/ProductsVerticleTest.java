@@ -15,28 +15,28 @@ import org.junit.runner.RunWith;
 import java.io.IOException;
 import java.net.ServerSocket;
 
-@RunWith(VertxUnitRunner.class)
-public class MainVerticleTest {
+//@RunWith(VertxUnitRunner.class)
+public class ProductsVerticleTest {
 
     private Vertx vertx;
     private int port;
 
-    @Before
+//    @Before
     public void setUp(TestContext context) throws IOException {
         vertx = Vertx.vertx();
         ServerSocket socket = new ServerSocket(0);
         port = socket.getLocalPort();
         socket.close();
         DeploymentOptions options = new DeploymentOptions().setConfig(new JsonObject().put("http.port", port));
-        vertx.deployVerticle(MainVerticle.class.getName(), options, context.asyncAssertSuccess());
+        vertx.deployVerticle(ProductsVerticle.class.getName(), options, context.asyncAssertSuccess());
     }
 
-    @After
+//    @After
     public void tearDown(TestContext context) {
         vertx.close(context.asyncAssertSuccess());
     }
 
-    @Test
+//    @Test
     public void startTest(TestContext context) {
         final Async async = context.async();
         vertx.createHttpClient().getNow(port, "localhost", "/", response -> {
