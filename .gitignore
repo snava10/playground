@@ -44,4 +44,4 @@
 */.idea
 /docker/shopping-cart/products/target
 /docker/shopping-cart/users/target
-
+**/.idea/*
