@@ -1,5 +1,7 @@
+lib64/
 bin/
 include/
 lib/
 share/
 .ipynb_checkpoints/
+lib64
