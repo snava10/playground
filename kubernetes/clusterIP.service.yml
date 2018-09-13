@@ -1,0 +1,14 @@
+# This kind of service exposes an ip address internally in the cluster.
+# It can be used to allow comunication between pods within the cluster.
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-clusterip
+spec:
+  type: ClusterIP
+  selector:
+    app: my-nginx
+  ports:
+    - port: 8080
+      targetPort: 80
