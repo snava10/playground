@@ -6,7 +6,7 @@
 
     <groupId>com.shop.services</groupId>
     <artifactId>products</artifactId>
-    <version>3.5.1</version>
+    <version>3.5.4</version>
 
     <dependencies>
         <dependency>
