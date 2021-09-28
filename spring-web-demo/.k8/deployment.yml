@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-demo-deployment
+  labels:
+    app: spring-demo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: spring-demo
+  template:
+    metadata:
+      labels:
+        app: spring-demo
+    spec:
+      containers:
+        - name: spring-demo
+          image: snava/springdemo:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
