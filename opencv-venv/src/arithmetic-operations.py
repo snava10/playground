@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-
 def blend():
     img1 = cv2.imread('resources/image1.jpg')
     img2 = cv2.imread('resources/opencv_logo.jpg')
@@ -15,8 +14,8 @@ def blend():
 
 def bitwise_operations():
     # Load two images
-    img1 = cv2.imread('resources/messi5.jpg')
-    img2 = cv2.imread('resources/opencv_logo.jpg')
+    img1 = cv2.imread('./src/resources/messi5.jpg')
+    img2 = cv2.imread('./src/resources/opencv_logo.jpg')
 
     # I want to put logo on top-left corner, So I create a ROI
     rows, cols, channels = img2.shape
@@ -42,5 +41,5 @@ def bitwise_operations():
     cv2.destroyAllWindows()
 
 
-blend()
-# bitwise_operations()
+# blend()
+bitwise_operations()
