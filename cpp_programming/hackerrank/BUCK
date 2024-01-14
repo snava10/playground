@@ -1,0 +1,5 @@
+cxx_binary(
+  name = "variable_sized_array",
+  srcs = ["variable_sized_array.cpp"],
+  link_style = "static",
+)

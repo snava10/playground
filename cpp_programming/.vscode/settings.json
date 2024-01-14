@@ -1,0 +1,12 @@
+{
+  "buck.projectConfig": {
+    "projectPath": "/home/sergio/github/cpp_programming",
+    "flavor": [],
+    "target": "",
+    "platform": "linux-x86_64"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, TabWidth: 2, UseTab: Never, ColumnLimit: 0 }",
+  "files.associations": {
+    "iostream": "cpp"
+  }
+}
